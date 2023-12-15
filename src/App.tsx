@@ -103,7 +103,7 @@ function App() {
       </div>
       <header className="App-header">
      
-        <p className="text-lg font-semibold text-center">BULLSCLUB NFT Collection Generator</p>
+        <p className="text-lg font-semibold text-center">BULLSCLUB NFT Collection Generator "FREE VERSION"</p>
      
       </header>
       <div className='main flex flex-col md:flex-row'>
