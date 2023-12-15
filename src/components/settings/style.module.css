@@ -1,0 +1,31 @@
+.container{
+    background: #0b0b0b40;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.pathInput{
+    background-color: rgba(46, 46, 46, 0.239) !important;
+    color: rgb(107 114 128 / var(--tw-border-opacity)) !important;
+    text-overflow: ellipsis;
+    border: 1px solid rgb(107 114 128 / var(--tw-border-opacity)) !important;
+}
+
+.inputButton{
+    font-size: .9em;
+    border-top: 1px solid #626871;
+    border-bottom: 1px solid #626871;
+    border-right: 1px solid #626871;
+    padding: 7px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.pngBtn{
+    border-radius: 5px 0px 0px 5px !important;
+    border: 1px solid white !important;
+}
+
+.jpgBtn{
+    border-radius: 0px 5px 5px 0px !important;
+    border: 1px solid white !important;
+}

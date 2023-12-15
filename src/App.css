@@ -1,0 +1,181 @@
+/* .main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+} */
+
+.App{
+    background-image: linear-gradient(to right top, #151a2d, #16162b, #171c29, #191726, #171723, #181722, #191721, #1a1720, #1e1721, #231822, #281821, #2c1820);
+    padding-bottom: 2rem;
+    min-height: 100vh;
+}
+
+.table-active {
+    background-color: rgba(99, 139, 160, 0.314);
+}
+
+.ant-table-row:hover {
+    /* background-color: rgba(99, 139, 160, 0.314) !important; */
+    cursor: pointer;
+}
+
+.ant-modal-body {
+    height: 350px;
+}
+
+.ant-spin-nested-loading{
+    height: 100vh;
+}
+
+.ant-spin{
+    height: 100vh !important;
+}
+
+.ant-spin-blur{
+    height: 100vh !important;
+}
+
+.ant-select-selector{
+    background-color: transparent !important;
+    color: white;
+    margin-top: 10px;
+}
+
+.ant-input{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.ant-select-dropdown{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.ant-radio-button-wrapper {
+    border: none !important;
+    color: white !important;
+    outline: none !important;
+    background-color: transparent !important;
+}
+.ant-radio-button{
+    font-size: .9em;
+    padding: 7px;
+    outline: none !important;
+    border-radius: 5px 0px 0px 5px;
+    background-color: transparent !important;
+    
+}
+.ant-upload{
+    background-color: rgba(26, 26, 26, 0.141) !important;
+    border-radius: 10px !important;
+}
+.ant-upload:hover{
+    background-color: rgba(26, 26, 26, 0.141) !important;
+    border-radius: 10px !important;
+    border-color: white !important;
+}
+
+.ant-input-number{
+    background-color: transparent !important;
+    color: white !important;
+    border-color: white !important;
+    outline: 0 !important;
+}
+.ant-input-number:hover{
+    outline: 0 !important;
+    border-color: white !important;
+}
+
+.ant-input-number:focus{
+    outline: 0 !important;
+}
+
+
+.ant-input-number-handler-wrap{
+    background-color: rgba(255, 255, 255, 0.99) !important;
+    z-index: 10 !important;
+}
+
+.ant-upload-text{
+    color: white !important;
+}
+
+.ant-upload-hint{
+    color: rgb(69, 69, 69) !important;
+}
+
+.ant-radio-button:focus{
+    outline: 0 !important;
+    border-color: white !important;
+}
+
+.ant-radio-button:focus-within{
+    outline: 0 !important;
+    border-color: white !important;
+}
+.ant-radio-button:hover{
+    outline: 0 !important;
+    border-color: white !important;
+}
+
+
+.ant-radio-button-wrapper-checked{
+    color: black !important;
+}
+
+.ant-radio-button-checked {
+    border-radius: 0px !important;
+    background-image: linear-gradient(to right top, #8ee8fe, #92e0ff, #a1d7ff, #b6cdff, #cdc1ff, #dfb7f5, #f1ace6, #ffa2d2, #ffa0b4, #ffa98c, #ffbd64, #fed747);
+}
+
+.ant-modal-content{
+    background-image: linear-gradient(to right top, #25152d, #20162b, #1d1729, #191726, #171723, #181722, #191721, #1a1720, #1e1721, #231822, #281821, #2c1820);
+    border-radius: 10px !important;
+
+}
+
+.ant-modal-header{
+    border: 0px !important;
+    background-image: linear-gradient(to right top, #25152d, #20162b, #1d1729, #191726, #171723, #181722, #191721, #1a1720, #1e1721, #231822, #281821, #2c1820) !important;
+    border-radius: 10px !important;
+}
+
+.ant-modal-footer{
+    border: 1px !important;
+}
+
+.ant-modal-title{
+    color: white !important;
+}
+
+.ant-modal-close-icon{
+    color: white !important;
+}
+
+.ant-btn-primary {
+    outline: none !important;
+    color: black !important;
+    border: none !important;
+    border-radius: 10px !important;
+    min-width: 100px !important;
+    background-image: linear-gradient(to right top, #8ee8fe, #92e0ff, #a1d7ff, #b6cdff, #cdc1ff, #dfb7f5, #f1ace6, #ffa2d2, #ffa0b4, #ffa98c, #ffbd64, #fed747) !important;
+}
+
+.ant-btn-default {
+    outline: none !important;
+    color: white !important;
+    background-color: transparent !important;
+    border: 1px solid #626871 !important;
+    min-width: 100px !important;
+    border-radius: 10px !important;
+}
+
+.mainBtn  {
+    outline: none !important;
+    color: black !important;
+    border: none !important;
+    padding: 10px 10px !important;
+    border-radius: 10px !important;
+    min-width: 100px !important;
+    background-image: linear-gradient(to right top, #8ee8fe, #92e0ff,
+                    #a1d7ff, #b6cdff, #cdc1ff, #dfb7f5, #f1ace6,
+                    #ffa2d2, #ffa0b4, #ffa98c, #ffbd64, #fed747) !important;
+}

@@ -10,7 +10,7 @@
   "build": {
     "productName": "NFT Collection Generator",
     "extends": null,
-    "appId": "io.praveen.nftcollgen",
+    "appId": "io.bullscllub.nftcollgen",
     "files": [
       "dist/**/*",
       "build/**/*",
@@ -24,7 +24,6 @@
   "description": "NFT Collection generator",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
-    "@nextui-org/react": "^1.0.0-beta.10",
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
@@ -93,3 +92,5 @@
     "tailwindcss": "^3.1.8"
   }
 }
+
+

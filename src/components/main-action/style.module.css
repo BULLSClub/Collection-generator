@@ -1,0 +1,18 @@
+.mainBtn {
+    outline: none;
+    color: black;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    min-width: 180px;
+    background-image: linear-gradient(to right top, #8ee8fe, #92e0ff, #a1d7ff, #b6cdff, #cdc1ff, #dfb7f5, #f1ace6, #ffa2d2, #ffa0b4, #ffa98c, #ffbd64, #fed747);
+}
+
+.secondaryBtn{
+    outline: none;
+    color: white;
+    border: 1px solid #626871;
+    padding: 10px 10px;
+    min-width: 180px;
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+//This will show as problem in VSCODE it'll resolve by applying this fix in vscode https://github.com/microsoft/vscode/issues/103163
+@tailwind utilities;
+@tailwind base;
+
+
+
+body {
+  height: 50px;
+  background-size: cover;
+  margin: 0;
+  // overflow-y: scroll;
+  background-repeat: no-repeat;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Poppins', sans-serif !important;
+  color: #fffeff !important;
+
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
